@@ -1,0 +1,6 @@
+name: ECR deletion check
+description: Adds comment in the PR to disable deletion_protection
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
