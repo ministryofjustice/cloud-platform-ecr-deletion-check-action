@@ -1,6 +1,7 @@
 #!/bin/sh -l
 
 echo "Hello"
+
 time=$(date)
 
 DELETED_FILES=$(git diff --name-status ${{ github.event.before }} ${{ github.sha }} | awk '$1 == "D" { print $2 }')
