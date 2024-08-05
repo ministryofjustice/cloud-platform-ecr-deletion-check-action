@@ -1,7 +1,5 @@
 #!/bin/sh -l
 
-set -e
-set +x
 echo "Hello"
 
 echo $GITHUB_SHA

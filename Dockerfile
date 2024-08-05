@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM ministryofjustice/cloud-platform-tools:2.7.0
 
 COPY ecr-deletion-check.sh /ecr-deletion-check.sh
 
