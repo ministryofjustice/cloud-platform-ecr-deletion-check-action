@@ -1,5 +1,5 @@
 FROM alpine:3.10
 
-COPY entrypoint.sh /entrypoint.sh
+COPY ecr-deletion-check.sh /ecr-deletion-check.sh
 
 ENTRYPOINT ["/ecr-deletion-check.sh"]
